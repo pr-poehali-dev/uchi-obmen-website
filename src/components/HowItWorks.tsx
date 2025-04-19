@@ -63,6 +63,19 @@ const HowItWorks = () => {
             </div>
           ))}
         </div>
+
+        <div className="mt-16 flex justify-center">
+          <div className="relative">
+            <img 
+              src="https://cdn.poehali.dev/files/facff095-784e-4872-849a-126594e8c85b.png" 
+              alt="Аниме-персонаж с телефоном" 
+              className="w-48 h-auto"
+            />
+            <div className="absolute -bottom-4 -right-4 bg-skyblue p-4 rounded-lg shadow-lg">
+              <p className="text-white font-medium">Попробуй сам!</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
