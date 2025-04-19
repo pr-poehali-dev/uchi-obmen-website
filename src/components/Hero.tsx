@@ -13,10 +13,16 @@ const Hero = () => {
             УчиОбмен — мобильное приложение для удобного обмена учебными материалами и заметками среди школьников и студентов
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="bg-skyblue hover:bg-skyblue-dark">
-              <Download className="h-5 w-5 mr-2" />
-              Скачать приложение
-            </Button>
+            <a 
+              href="https://i.pinimg.com/736x/3b/75/c8/3b75c87eb38ee22e63d6607901493865.jpg" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button size="lg" className="bg-skyblue hover:bg-skyblue-dark">
+                <Download className="h-5 w-5 mr-2" />
+                Скачать приложение
+              </Button>
+            </a>
             <Button size="lg" variant="outline" className="border-skyblue text-skyblue hover:bg-skyblue/10">
               Узнать больше
               <ArrowRight className="h-5 w-5 ml-2" />

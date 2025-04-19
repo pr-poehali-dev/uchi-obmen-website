@@ -28,10 +28,16 @@ const Navbar = () => {
           <Link to="/faq" className="text-skyblue-foreground hover:text-white transition-colors">
             FAQ
           </Link>
-          <Button className="bg-white text-skyblue hover:bg-skyblue-light hover:text-skyblue-dark">
-            <Download className="h-4 w-4 mr-2" />
-            Скачать
-          </Button>
+          <a 
+            href="https://i.pinimg.com/736x/3b/75/c8/3b75c87eb38ee22e63d6607901493865.jpg" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-white text-skyblue hover:bg-skyblue-light hover:text-skyblue-dark">
+              <Download className="h-4 w-4 mr-2" />
+              Скачать
+            </Button>
+          </a>
         </div>
 
         <button className="md:hidden text-white" onClick={toggleMenu}>
@@ -64,10 +70,17 @@ const Navbar = () => {
             >
               FAQ
             </Link>
-            <Button className="bg-white text-skyblue hover:bg-skyblue-light hover:text-skyblue-dark w-full">
-              <Download className="h-4 w-4 mr-2" />
-              Скачать
-            </Button>
+            <a 
+              href="https://i.pinimg.com/736x/3b/75/c8/3b75c87eb38ee22e63d6607901493865.jpg" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full"
+            >
+              <Button className="bg-white text-skyblue hover:bg-skyblue-light hover:text-skyblue-dark w-full">
+                <Download className="h-4 w-4 mr-2" />
+                Скачать
+              </Button>
+            </a>
           </div>
         </div>
       )}
